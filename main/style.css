@@ -1,0 +1,116 @@
+body {
+  background-color: darkblue;
+  color: white;
+  margin: 0%;
+  padding: 0%;
+}
+
+#p {
+  width: fit-content;
+  height: inherit;
+  margin: auto;
+}
+
+.halfpart {
+  width: 362px;
+  height: 442px;
+}
+
+#p1 {
+  border: 5px white solid;
+  width: 882px;
+  height: 442px;
+  background-color: black;
+  border-radius: 40px;
+  display: flex;
+}
+
+#pp1 {
+  height: 362px;
+  width: 362px;
+  border-radius: 30px;
+  background-color: white;
+  margin: 40px;
+}
+
+.pi {
+  width: 262px;
+  height: 262px;
+  margin: 40px;
+}
+
+.des {
+  position: relative;
+  width: 530px;
+  height: 385px;
+  margin-right: 20px;
+  margin-top: 14px;
+  margin-left: 50px;
+}
+
+.ph {
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.ppt {
+  text-align: justify;
+  font-size: 27px;
+  margin: 21px;
+  font-family: cursive;
+}
+
+.q {
+  font-size: 32px;
+  margin-left: 25px;
+  display: inline;
+}
+
+.wrapper {
+  color: black;
+  height: 58px;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  display: flex;
+  font-weight: 900;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.wrapper span {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.wrapper span.num {
+  font-size: 50px;
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.pri {
+  width: 120px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  margin: 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.btn {
+  font-size: 50px;
+  border: 2px blue solid;
+  background: yellow;
+  cursor: pointer;
+}
+
+.spa {
+  margin-top: 50px;
+}
